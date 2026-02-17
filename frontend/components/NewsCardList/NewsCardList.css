@@ -1,0 +1,42 @@
+.elements {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  display: flex;
+  /* align-content: center; */
+  flex-direction: column;
+  padding: 0px 100px;
+}
+
+.elements_title {
+  padding: 80px 64px 0px;
+  font-family: "Roboto Slab";
+  font-weight: 400;
+}
+
+.elements_title:empty {
+  display: none;
+}
+
+.elements_button {
+  cursor: pointer;
+  background-color: rgba(232, 232, 232, 1);
+  border: none;
+  border-radius: 30px;
+  padding: 20px;
+  width: 300px;
+  align-self: center;
+}
+
+.cards {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 64px;
+}
+
+@media screen and (max-width: 1300px) {
+  .cards {
+    justify-content: center;
+  }
+}

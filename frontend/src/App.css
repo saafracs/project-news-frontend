@@ -1,0 +1,8 @@
+.page {
+  font-family: Roboto, arial, serif;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
