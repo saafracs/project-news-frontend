@@ -1,0 +1,8 @@
+.header-news {
+  padding: 30px 100px 0px;
+  display: flex;
+  color: black;
+  background-color: white;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(209, 210, 214, 1);
+}

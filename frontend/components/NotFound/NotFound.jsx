@@ -1,0 +1,34 @@
+import "./NotFound.css";
+
+export default function NotFound() {
+  return (
+    <div className="not_found">
+      <div className="not_found__icon">
+        <svg
+          width="83"
+          height="83"
+          viewBox="0 0 83 83"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle cx="37" cy="37" r="36.5" stroke="#D1D2D6" />
+          <path d="M63 63L82.5 82.5" stroke="#D1D2D6" />
+          <path
+            d="M52.3283 49.9592C48.6606 45.6981 43.2275 43 37.1642 43C31.1009 43 25.6678 45.6981 22 49.9592"
+            stroke="#D1D2D6"
+          />
+          <circle cx="49.5" cy="27.5" r="1.5" fill="#D1D2D6" />
+          <circle cx="24.5" cy="27.5" r="1.5" fill="#D1D2D6" />
+        </svg>
+      </div>
+      <div className="not_found__text">
+        <p className="not_found__text-title">No se encontró nada</p>
+        <p className="not_found__text-subtitle">
+          Lo sentimos, pero no hay nada que coincida con tus términos de
+          búsqueda. <br /> Es posible que haya un problema de conexión o que el
+          servidor no funcione. Por favor, inténtalo más tarde.
+        </p>
+      </div>
+    </div>
+  );
+}

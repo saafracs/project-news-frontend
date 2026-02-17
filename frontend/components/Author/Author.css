@@ -1,0 +1,33 @@
+.author {
+  color: black;
+  background-color: white;
+  min-height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.author_image {
+  background: url(../../images/author.jpg) no-repeat center / contain;
+  background-size: 500px;
+  border-radius: 100%;
+  width: 400px;
+  height: 400px;
+}
+
+.author_about {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.author_about__name {
+  font-size: 40px;
+  font-family: "Roboto Slab";
+  font-weight: 400;
+}
+
+.author_about__text {
+  font-weight: 400;
+  font-size: 18px;
+}

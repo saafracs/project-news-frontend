@@ -1,0 +1,10 @@
+.forhead {
+  color: black;
+  margin: 10px 100px;
+}
+
+.forhead_subtitle {
+  color: rgba(26, 27, 34, 0.5);
+  font-family: Roboto;
+  font-weight: 400;
+}
